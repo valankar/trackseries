@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 # A script that marks all seasons as watched on trackseries.tv. This is useful
 # for subscribing to a new show which has tons of old seasons (Frontline,
 # Horizon, etc).
@@ -13,7 +13,7 @@ from selenium.common.exceptions import TimeoutException
 import time
 
 # Get cookies and stuff from this Firefox profile
-PROFILE = "/home/valankar/.mozilla/firefox/6vc454j2.default-release"
+PROFILE = "/home/valankar/.mozilla/firefox/va3sejea.default-esr"
 
 ffprofile = webdriver.FirefoxProfile(PROFILE)
 driver = webdriver.Firefox(firefox_profile=ffprofile)
